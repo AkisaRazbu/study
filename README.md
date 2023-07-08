@@ -1,6 +1,9 @@
 # Study.sh 
 Simple bash script utilizing [caarlos0](https://github.com/caarlos0) [timer](https://github.com/caarlos0/timer)
 
+Requirements:
+Caarlos0's timer, without it this won't even start! Installation for that is explained in the repo I linked above.
+
 Installation:
 ```console
 $ git clone https://github.com/akisarazbu/study
