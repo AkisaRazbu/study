@@ -1,0 +1,18 @@
+#!/bin/bash
+
+study_time=$1
+pause_time=$2
+args=$#
+
+if [ $args -lt 2 ]
+then
+	echo "Usage: study <study_time> <pause_time>"
+	echo "Study time and pause time are in minutes!"
+	exit 1
+fi
+
+if [ $args = 2 ]
+then
+	timer -f $study_time\m && timer -f $pause_time\m
+fi
+
